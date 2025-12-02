@@ -1,0 +1,465 @@
+@import url('/css/bootstrap.min.css');
+@import url('/css/bootstrap-icons.css');
+@import url('/css/vegas.min.css');
+@import url('/css/tooplate-barista.css');
+
+/* ============================================
+   RESPONSIVE STYLES - Mobile & Tablet
+   ============================================ */
+
+/* Mobile Menu Slide from Right */
+@media screen and (max-width: 991px) {
+  .navbar-collapse {
+    position: fixed !important;
+    top: 0 !important;
+    right: -100% !important;
+    width: 280px !important;
+    height: 100vh !important;
+    background: linear-gradient(135deg, rgba(15, 15, 20, 0.98) 0%, rgba(30, 25, 35, 0.98) 100%) !important;
+    backdropFilter: blur(20px) !important;
+    WebkitBackdropFilter: blur(20px) !important;
+    padding: 80px 30px 30px !important;
+    boxShadow: '-5px 0 30px rgba(0, 0, 0, 0.5)' !important;
+    borderLeft: '1px solid rgba(221, 161, 94, 0.2)' !important;
+    transition: right 0.3s ease-in-out !important;
+    zIndex: 9998 !important;
+    overflowY: auto !important;
+  }
+
+  .navbar-collapse.show,
+  .navbar-collapse.collapsing {
+    right: 0 !important;
+  }
+
+  .navbar-nav {
+    flexDirection: column !important;
+    width: 100% !important;
+    gap: 10px !important;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100% !important;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 15px 20px !important;
+    borderRadius: 12px !important;
+    margin: 0 !important;
+    width: 100% !important;
+    textAlign: left !important;
+    transition: all 0.3s ease !important;
+    border: 1px solid rgba(221, 161, 94, 0.1) !important;
+  }
+
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    background: rgba(221, 161, 94, 0.2) !important;
+    borderColor: rgba(221, 161, 94, 0.4) !important;
+    transform: translateX(-5px) !important;
+  }
+
+  /* Menu Overlay */
+  .menu-overlay {
+    display: none !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    zIndex: 9997 !important;
+    transition: opacity 0.3s ease !important;
+  }
+
+  body.menu-open .menu-overlay {
+    display: block !important;
+    animation: fadeIn 0.3s ease !important;
+  }
+
+  /* Overlay background */
+  body.menu-open::before {
+    content: '' !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    zIndex: 9997 !important;
+    animation: fadeIn 0.3s ease !important;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+/* Mobile Small (320px - 575px) */
+@media screen and (max-width: 575px) {
+  /* Hero Section */
+  .hero-section {
+    min-height: 100vh !important;
+    padding: 80px 15px 40px !important;
+  }
+
+  .hero-content {
+    padding: 30px 15px !important;
+  }
+
+  .hero-content h1 {
+    font-size: 32px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .hero-content p {
+    font-size: 16px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .hero-buttons {
+    flex-direction: column !important;
+    gap: 15px !important;
+    width: 100% !important;
+  }
+
+  .hero-buttons a {
+    width: 100% !important;
+    padding: 14px 24px !important;
+    font-size: 16px !important;
+    justify-content: center !important;
+  }
+
+  /* Navbar */
+  .navbar {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+
+  .navbar-brand {
+    font-size: 18px !important;
+  }
+
+  .navbar-brand-image {
+    width: 35px !important;
+    height: 35px !important;
+  }
+
+  .navbar .container {
+    padding: 10px 15px !important;
+  }
+
+  /* Services Section */
+  .menu-section {
+    background-attachment: scroll !important;
+  }
+
+  .menu-block-wrap {
+    padding: 25px 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .menu-block {
+    padding: 15px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .menu-block h6 {
+    font-size: 18px !important;
+  }
+
+  .menu-block small {
+    font-size: 14px !important;
+  }
+
+  .menu-block .badge {
+    font-size: 10px !important;
+    padding: 4px 8px !important;
+  }
+
+  /* Rooms Section */
+  .barista-section .col-lg-3 {
+    margin-bottom: 20px !important;
+  }
+
+  .team-block-wrap {
+    max-height: none !important;
+  }
+
+  .team-block-image-wrap {
+    height: 300px !important;
+  }
+
+  .team-block-info {
+    padding: 20px 15px !important;
+  }
+
+  .team-block-info h4 {
+    font-size: 20px !important;
+  }
+
+  .team-block-info p {
+    font-size: 14px !important;
+  }
+
+  .team-block-info .badge {
+    font-size: 10px !important;
+    padding: 4px 8px !important;
+  }
+
+  /* Contact Section */
+  .contact-card {
+    padding: 30px 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .contact-card h4 {
+    font-size: 16px !important;
+  }
+
+  .contact-card .text-white {
+    font-size: 20px !important;
+  }
+
+  /* Footer */
+  .site-footer {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+
+  .site-footer .col-lg-4,
+  .site-footer .col-lg-3,
+  .site-footer .col-lg-5 {
+    margin-bottom: 30px !important;
+  }
+
+  /* About Section */
+  .about-section {
+    background-attachment: scroll !important;
+  }
+
+  .about-section .ratio {
+    margin-bottom: 30px !important;
+  }
+
+  .about-section .ratio::before {
+    padding-top: 100% !important;
+  }
+
+  .about-section h2 {
+    font-size: 28px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .about-section p {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+  }
+
+  .about-section h5 {
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+  }
+
+  .about-video-info {
+    padding: 30px 20px !important;
+  }
+
+  .about-video-info h4 {
+    font-size: 20px !important;
+  }
+
+  /* Section Padding */
+  .section-padding {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+  }
+}
+
+/* Mobile Large (576px - 767px) */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* Hero Section */
+  .hero-content {
+    padding: 40px 25px !important;
+  }
+
+  .hero-content h1 {
+    font-size: 42px !important;
+  }
+
+  .hero-buttons {
+    gap: 20px !important;
+  }
+
+  .hero-buttons a {
+    padding: 14px 28px !important;
+  }
+
+  /* Services Section */
+  .menu-block-wrap {
+    padding: 35px 30px !important;
+  }
+
+  /* Rooms Section */
+  .team-block-image-wrap {
+    height: 400px !important;
+  }
+
+  /* Contact Section */
+  .contact-card {
+    padding: 35px 25px !important;
+  }
+}
+
+/* Tablet (768px - 991px) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Hero Section */
+  .hero-content {
+    padding: 45px 30px !important;
+  }
+
+  .hero-content h1 {
+    font-size: 52px !important;
+  }
+
+  /* Services Section */
+  .menu-block-wrap {
+    padding: 40px 35px !important;
+  }
+
+  /* Rooms Section */
+  .team-block-image-wrap {
+    height: 450px !important;
+  }
+
+  /* Contact Section */
+  .contact-card {
+    padding: 40px 30px !important;
+  }
+
+  /* Navbar */
+  .navbar-brand {
+    font-size: 22px !important;
+  }
+}
+
+/* Common Mobile & Tablet Adjustments */
+@media screen and (max-width: 991px) {
+  /* Container padding */
+  .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  /* Typography */
+  h1 {
+    font-size: clamp(32px, 6vw, 48px) !important;
+  }
+
+  h2 {
+    font-size: clamp(28px, 5vw, 40px) !important;
+  }
+
+  h3 {
+    font-size: clamp(24px, 4vw, 32px) !important;
+  }
+
+  h4 {
+    font-size: clamp(20px, 3.5vw, 28px) !important;
+  }
+
+  /* Buttons */
+  .custom-btn {
+    font-size: 16px !important;
+    padding: 12px 24px !important;
+  }
+
+  /* Stats/Features in Hero */
+  .hero-content > div:last-child {
+    gap: 30px !important;
+    margin-top: 50px !important;
+  }
+
+  .hero-content > div:last-child > div {
+    min-width: auto !important;
+    padding: 15px 20px !important;
+  }
+
+  /* Floating Buttons */
+  .floating-buttons {
+    bottom: 20px !important;
+    right: 20px !important;
+    gap: 12px !important;
+  }
+
+  .floating-buttons a,
+  .floating-buttons button {
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 20px !important;
+  }
+}
+
+/* Extra adjustments for very small screens */
+@media screen and (max-width: 374px) {
+  .floating-buttons {
+    bottom: 15px !important;
+    right: 15px !important;
+    gap: 10px !important;
+  }
+
+  .floating-buttons a,
+  .floating-buttons button {
+    width: 45px !important;
+    height: 45px !important;
+    font-size: 18px !important;
+  }
+
+  /* Google Map */
+  iframe {
+    height: 400px !important;
+  }
+}
+
+/* Extra Small Mobile (320px - 374px) */
+@media screen and (max-width: 374px) {
+  .hero-content h1 {
+    font-size: 28px !important;
+  }
+
+  .hero-content p {
+    font-size: 14px !important;
+  }
+
+  .hero-buttons a {
+    font-size: 14px !important;
+    padding: 12px 20px !important;
+  }
+
+  .navbar-brand {
+    font-size: 16px !important;
+  }
+
+  .navbar-brand-image {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .menu-block-wrap {
+    padding: 20px 15px !important;
+  }
+
+  .contact-card {
+    padding: 25px 15px !important;
+  }
+
+  .section-padding {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+}
+
