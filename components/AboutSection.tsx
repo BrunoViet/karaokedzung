@@ -10,7 +10,7 @@ export default function AboutSection() {
             <div className="ratio ratio-1x1" style={{ position: 'relative' }}>
               <Image
                 src="/images/banner.jpg"
-                alt="Karaoke Dzũng"
+                alt="Karaoke ở Huế - Quán Karaoke Dzũng tại Huế với phòng ốc sang trọng"
                 fill
                 style={{ objectFit: 'cover' }}
                 className="rounded"
@@ -25,14 +25,14 @@ export default function AboutSection() {
           <div className="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto">
             <em className="text-white">Chào mừng Quý Khách đến với</em>
 
-            <h2 className="text-white mb-3">Karaoke Dzũng</h2>
+            <h2 className="text-white mb-3">Karaoke Dzũng - Quán Karaoke ở Huế Chất Lượng</h2>
 
             <p className="text-white">
-              Đến với quán Karaoke Dzũng, bạn sẽ cảm nhận được phòng ốc đẹp, sang trọng
+              Đến với quán <strong>Karaoke Dzũng</strong> - một trong những <strong>quán karaoke ở Huế</strong> hàng đầu, bạn sẽ cảm nhận được phòng ốc đẹp, sang trọng
               cùng hệ thống âm thanh, ánh sáng hiện đại. Mỗi phòng sẽ có không gian phong cách kiến trúc
-              khác nhau và đẹp mắt. Karaoke Dzũng cũng thường xuyên cập nhật bài hát mới hay trên thị
+              khác nhau và đẹp mắt. <strong>Karaoke Dzũng</strong> cũng thường xuyên cập nhật bài hát mới hay trên thị
               trường để đem lại giây phút thoải mái, thích thú cho khách hàng. Nếu bạn đang có nhu cầu tìm
-              nơi để vui chơi, giải trí cuối tuần thì Karaoke Dzũng sẽ là địa điểm hoàn hảo dành cho bạn.
+              <strong> quán karaoke ở Huế</strong> để vui chơi, giải trí cuối tuần thì <strong>Karaoke Dzũng</strong> sẽ là địa điểm hoàn hảo dành cho bạn.
             </p>
             <h5 className="text-white" style={{ fontWeight: 'bold' }}>
               Địa chỉ: 2/29 Lê Hồng Phong, Phú Nhuận, Thành phố Huế, Thừa Thiên Huế, Vietnam

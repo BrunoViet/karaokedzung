@@ -124,7 +124,7 @@ export default function HeroSection() {
                   width: '100%',
                 }}
               >
-                Karaoke Dzũng
+                Karaoke ở Huế - Karaoke Dzũng
                 <span
                   style={{
                     position: 'absolute',
@@ -155,7 +155,7 @@ export default function HeroSection() {
                 Kính <em style={{ color: '#DDA15E', fontStyle: 'italic', fontWeight: '600' }}>chào</em> Quý Khách.
                 <br />
                 <span style={{ fontSize: '0.9em', opacity: 0.9 }}>
-                  Địa điểm karaoke hàng đầu tại Huế với không gian sang trọng và dịch vụ chuyên nghiệp
+                  Quán karaoke hàng đầu ở Huế với không gian sang trọng và dịch vụ chuyên nghiệp. Tìm các quán karaoke ở Huế chất lượng cao.
                 </span>
               </p>
 

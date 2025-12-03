@@ -25,7 +25,7 @@ export default function ContactSection() {
                 }}
               >
                 <i className="bi-star-fill me-2" style={{ color: '#DDA15E' }}></i>
-                Bạn muốn đặt phòng Karaoke ở huế Dzung
+                Bạn muốn đặt phòng karaoke ở Huế tại Karaoke Dzũng
                 <i className="bi-star-fill ms-2" style={{ color: '#DDA15E' }}></i>
               </em>
             </div>

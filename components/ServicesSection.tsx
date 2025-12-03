@@ -131,7 +131,7 @@ export default function ServicesSection() {
               <div className="menu-block-wrap">
                 <div className="text-center mb-4 pb-lg-2">
                   <em className="text-white">Danh sách</em>
-                  <h4 className="text-white">Loại Phòng</h4>
+                  <h4 className="text-white">Loại Phòng Karaoke ở Huế</h4>
                 </div>
 
                 {roomTypes.map((room, index) => (

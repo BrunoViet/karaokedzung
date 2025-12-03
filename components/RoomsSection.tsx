@@ -37,7 +37,7 @@ export default function RoomsSection() {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-12 col-12 text-center mb-4 pb-lg-2">
-            <em className="text-white">Danh sách các phòng hát</em>
+            <em className="text-white">Danh sách các phòng hát karaoke ở Huế</em>
             <h2 
               className="text-white"
               style={{
@@ -50,7 +50,7 @@ export default function RoomsSection() {
                 backgroundClip: 'text',
               }}
             >
-              Đầy đủ các loại phòng
+              Đầy đủ các loại phòng karaoke ở Huế
             </h2>
           </div>
 
@@ -73,7 +73,7 @@ export default function RoomsSection() {
                   <Image
                     src={room.image}
                     className="team-block-image img-fluid"
-                    alt={room.name}
+                    alt={`${room.name} - Phòng karaoke ở Huế tại Karaoke Dzũng`}
                     fill
                     style={{ objectFit: 'cover' }}
                   />
