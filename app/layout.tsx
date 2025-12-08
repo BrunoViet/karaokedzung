@@ -11,8 +11,8 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: 'Karaoke ở Huế - Các Quán Karaoke ở Huế | Karaoke Dzũng',
-  description: 'Karaoke Dzũng - Quán karaoke hàng đầu tại Huế với phòng ốc sang trọng, âm thanh hiện đại. Địa chỉ: 2/29 Lê Hồng Phong, Phú Nhuận, Huế. Hotline: 0906 404 048. Tìm quán karaoke ở Huế chất lượng cao.',
-  keywords: 'karaoke ở huế, các quán karaoke ở huế, karaoke huế, quán karaoke huế, karaoke dzũng, karaoke hue, karaoke o hue, karaoke tại huế, phòng karaoke huế, địa điểm karaoke huế',
+  description: 'Karaoke Dzũng - Quán karaoke bình dân, giá rẻ tại Huế với phòng ốc sang trọng, âm thanh hiện đại. Địa chỉ: 2/29 Lê Hồng Phong, Phú Nhuận, Huế. Hotline: 0906 404 048. Tìm quán karaoke ở Huế chất lượng cao, giá cả hợp lý.',
+  keywords: 'karaoke ở huế, các quán karaoke ở huế, karaoke huế, quán karaoke huế, karaoke dzũng, karaoke hue, karaoke o hue, karaoke tại huế, phòng karaoke huế, địa điểm karaoke huế, karaoke giá rẻ huế, karaoke bình dân huế, karaoke rẻ ở huế',
   authors: [{ name: 'Karaoke Dzũng' }],
   creator: 'Karaoke Dzũng',
   publisher: 'Karaoke Dzũng',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Karaoke ở Huế - Các Quán Karaoke ở Huế | Karaoke Dzũng',
-    description: 'Karaoke Dzũng - Quán karaoke hàng đầu tại Huế với phòng ốc sang trọng, âm thanh hiện đại. Địa chỉ: 2/29 Lê Hồng Phong, Phú Nhuận, Huế.',
+    description: 'Karaoke Dzũng - Quán karaoke bình dân, giá rẻ tại Huế với phòng ốc sang trọng, âm thanh hiện đại. Địa chỉ: 2/29 Lê Hồng Phong, Phú Nhuận, Huế.',
     url: 'https://karaokedzung.com', // Thay bằng domain thực tế
     siteName: 'Karaoke Dzũng',
     locale: 'vi_VN',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Karaoke ở Huế - Các Quán Karaoke ở Huế | Karaoke Dzũng',
-    description: 'Karaoke Dzũng - Quán karaoke hàng đầu tại Huế với phòng ốc sang trọng, âm thanh hiện đại.',
+    description: 'Karaoke Dzũng - Quán karaoke bình dân, giá rẻ tại Huế với phòng ốc sang trọng, âm thanh hiện đại.',
     images: ['/images/banner.jpg'],
   },
   robots: {
@@ -79,7 +79,7 @@ export default function RootLayout({
     '@id': 'https://karaokedzung.com#business', // Thay bằng domain thực tế
     name: 'Karaoke Dzũng',
     alternateName: 'Karaoke Dzung',
-    description: 'Quán karaoke hàng đầu tại Huế với phòng ốc sang trọng, hệ thống âm thanh và ánh sáng hiện đại. Cập nhật bài hát mới thường xuyên.',
+    description: 'Quán karaoke bình dân, giá rẻ tại Huế với phòng ốc sang trọng, hệ thống âm thanh và ánh sáng hiện đại. Cập nhật bài hát mới thường xuyên. Giá cả hợp lý, phù hợp mọi đối tượng khách hàng.',
     url: 'https://karaokedzung.com', // Thay bằng domain thực tế
     telephone: '+84906404048',
     email: 'dzungdzung3000@yahoo.com.vn',
