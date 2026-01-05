@@ -31,7 +31,7 @@ export default function AboutSection() {
               Đến với quán <strong>Karaoke Dzũng</strong> - một trong những <strong>quán karaoke ở Huế</strong> hàng đầu, bạn sẽ cảm nhận được phòng ốc đẹp, sang trọng
               cùng hệ thống âm thanh, ánh sáng hiện đại. Mỗi phòng sẽ có không gian phong cách kiến trúc
               khác nhau và đẹp mắt. <strong>Karaoke Dzũng</strong> cũng thường xuyên cập nhật bài hát mới hay trên thị
-              trường để đem lại giây phút thoải mái, thích thú cho khách hàng. Nếu bạn đang có nhu cầu tìm
+              trường để đem lại giây phút thoải mái, thích thú cho khách hàng. Với mức <strong>giá rẻ</strong> và phong cách <strong>bình dân</strong>, quán là lựa chọn lý tưởng cho mọi người. Nếu bạn đang có nhu cầu tìm
               <strong> quán karaoke ở Huế</strong> để vui chơi, giải trí cuối tuần thì <strong>Karaoke Dzũng</strong> sẽ là địa điểm hoàn hảo dành cho bạn.
             </p>
             <h5 className="text-white" style={{ fontWeight: 'bold' }}>

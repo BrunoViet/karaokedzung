@@ -33,7 +33,7 @@ const roomTypes = [
 const services = [
   {
     name: 'Trái cây',
-    description: 'Sạch sẽ, giá cả phải chăng',
+    description: 'Sạch sẽ, giá cả phải chăng, giá rẻ và bình dân',
   },
   {
     name: 'Mực nướng',

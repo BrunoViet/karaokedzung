@@ -12,7 +12,7 @@ const rooms = [
     id: 2,
     name: 'Phòng thường',
     badge: 'Normal',
-    description: 'Thích hợp cho việc tổ chức tiệc tùng',
+    description: 'Thích hợp cho việc tổ chức tiệc tùng, giá rẻ và bình dân',
     image: '/images/room2.jpg',
   },
   {
@@ -50,7 +50,7 @@ export default function RoomsSection() {
                 backgroundClip: 'text',
               }}
             >
-              Đầy đủ các loại phòng karaoke ở Huế
+              Đầy đủ các loại phòng karaoke ở Huế - Giá rẻ, bình dân
             </h2>
           </div>
 

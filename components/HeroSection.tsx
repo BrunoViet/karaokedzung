@@ -155,7 +155,7 @@ export default function HeroSection() {
                 Kính <em style={{ color: '#DDA15E', fontStyle: 'italic', fontWeight: '600' }}>chào</em> Quý Khách.
                 <br />
                 <span style={{ fontSize: '0.9em', opacity: 0.9 }}>
-                  Quán karaoke hàng đầu ở Huế với không gian sang trọng và dịch vụ chuyên nghiệp. Tìm các quán karaoke ở Huế chất lượng cao.
+                  Quán karaoke hàng đầu ở Huế với không gian sang trọng và dịch vụ chuyên nghiệp. Tìm các quán karaoke ở Huế chất lượng cao, <strong>giá rẻ</strong> và <strong>bình dân</strong>.
                 </span>
               </p>
 
